@@ -4,32 +4,32 @@
     {
       "localImg": "http://ronbuskirk.com/new/wp-content/uploads/wpid-140216_020.jpg",
       "Name": "Printer's Alley",
-      "Location Address": "3rd Ave N & 4th Ave N, Nashville, TN 37201",
-      "Time That Ex Usually Goes": "After Dark"
+      "locationAddress": "3rd Ave N & 4th Ave N, Nashville, TN 37201",
+      "timeThatExUsuallyGoes": "After Dark"
     },
     {
       "localImg": "https://cdn.nashvillepost.com/files/base/scomm/nvp/image/2017/07/640w/Screen_Shot_2017_07_31_at_2.08.37_PM.597f810562e02.jpg",
       "Name": "404 Kitchen",
-      "Location Address": "507 12th Ave S, Nashville, TN 37203",
-      "Time That Ex Usually Goes":"Afternoon"
+      "locationAddress": "507 12th Ave S, Nashville, TN 37203",
+      "timeThatExUsuallyGoes":"Afternoon"
     },
     {
       "localImg": "https://s3-media2.fl.yelpcdn.com/bphoto/Nt2u_qZ7JLWhpuJWuH6MMA/258s.jpg",
       "Name": "Gray Dental Care, PC",
-      "Location Address": "625 Berry Rd, Nashville, TN 37204",
-      "Time That Ex Usually Goes":"Morning"
+      "locationAddress": "625 Berry Rd, Nashville, TN 37204",
+      "timeThatExUsuallyGoes":"Morning"
     },
     {
       "localImg": "https://pbs.twimg.com/media/CyOkXXnUQAAFLV8.jpg",
       "Name": "Donks",
-      "Location Address": "2209 Murfreesboro Pike, Nashville, TN 37217",
-      "Time That Ex Usually Goes":"Evening"
+      "locationAddress": "2209 Murfreesboro Pike, Nashville, TN 37217",
+      "timeThatExUsuallyGoes":"Evening"
     },
     {
       "localImg": "https://assets3.thrillist.com/v1/image/1777819/size/tmg-article_default_mobile.jpg",
       "Name": "Broadway",
-      "Location Address": "Broadway, Nashville, TN 37201",
-      "Time That Ex Usually Goes":"After Dark"
+      "locationAddress": "Broadway, Nashville, TN 37201",
+      "timeThatExUsuallyGoes":"After Dark"
     }
   ]
 }
