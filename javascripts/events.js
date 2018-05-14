@@ -3,61 +3,32 @@ jQuery.expr[':'].icontains = function (a, i, m) {
     .indexOf(m[3].toUpperCase()) >= 0;
 };
 
-// const filterMawning = () => {
-//   $('.timeThatExUsuallyGoes').not('.morning').closest('.location').hide();
-//   $('.timeThatExUsuallyGoes').filter('.morning').closest('.location').show();
-// };
-
-// const filterEvening = () => {
-//   $('.timeThatExUsuallyGoes').not('.evening').closest('.location').hide();
-//   $('.timeThatExUsuallyGoes').filter('.evening').closest('.location').show();
-// };
-
-// const filterAfternoon = () => {
-//   $('.timeThatExUsuallyGoes').not('.afternoon').closest('.location').hide();
-//   $('.timeThatExUsuallyGoes').filter('.afternoon').closest('.location').show();
-// };
-
-// const filterNight = () => {
-//   $('.timeThatExUsuallyGoes').not('.after-dark').closest('.location').hide();
-//   $('.timeThatExUsuallyGoes').filter('.after-dark').closest('.location').show();
-// };
-
-// const allClicks = () => {
-//   $('#mawning-button').click(filterMawning);
-//   $('evening-button').click(filterEvening);
-//   $('afternoon-button').click(filterAfternoon);
-//   $('after-dark-button').click(filterNight);
-// };
-const filterLocations = (e) => {
-  const button = $(e.target).html();
-  $('#location-div .location-card').show();
-  if (button === 'Morning') {
-    $('#location-div .location-card').not('.morning').hide();
-    console.log(e);
-  } else if (button === 'Afternoon') {
-    $('#location-div .location-card').not('.afternoon').toggle();
-  } else if (button === 'Evening') {
-    $('#location-div .location-card').not('.evening').toggle();
-  } else if (button === 'After Dark') {
-    $('#location-div .location-card').not('.after-dark').toggle();
-  } else {
-    $('#location-div .location-card').show();
-  };
+const filterLocations = () => {
+  $('btn').on('click', () => {
+    $('#locateMe .location-card').show();
+    const button = $(event.target).html();
+    if (button === 'Morning') {
+      $('#locateMe').not('.Morning').toggle();
+    } else if (button === 'Afternoon') {
+      $('#locateMe .location-card').not('.Afternoon').toggle();
+    } else if (button === 'Evening') {
+      $('#locateMe .location-card').not('.Evening').toggle();
+    } else if (button === 'After-Dark') {
+      $('#locateMe .location-card').not('.After-Dark').toggle();
+    }
+  });
 };
 
-const searchBar = (e) => {
-  if (e.which === 13) {
-    const userInput = $(e.target).val();
-    $(`#location-div .location-card:not(:icontains(${userInput}))`).hide();
-    console.log(userInput);
-    $(e.target).val('');
-  };
+const letsSearch = () => {
+  $('#search').keypress((event) => {
+    if (event.which === 13) {
+      const userInput = $('#search').val();
+      $(`#locateMe .location-card:not(:icontains(${userInput}))`).hide();
+    }
+  });
 };
 
-const bindEvents = () => {
-  $('.btn').on('click', filterLocations);
-  $('#search').keypress(searchBar);
+module.exports = {
+  filterLocations,
+  letsSearch,
 };
-
-module.exports = bindEvents;
