@@ -8,8 +8,8 @@ Jquery
 
 
 ## Screenshots
-![Webpage]
-![Webpage]
+![Webpage](https://raw.githubusercontent.com/lolasimp/Ex-Tracker/master/screenshots/screenshot1.png)
+![Webpage](https://raw.githubusercontent.com/lolasimp/Ex-Tracker/master/screenshots/screenshot2.png)
 
 ## How to Run
 1. Clone down this repo, and cd into the project
