@@ -3,13 +3,15 @@ const loadLocations = require('./locations');
 const showAll = require('./Dom');
 const events = require('./events');
 
-const whenExLoad = (data) => {
-  $('#exPast').append(showAll.showEx(data.ex));
-  events();
+const whenLocationsLoad = (data) => {
+  // $('#locateMe').append(showAll.showLocal(data.locations));
+  $('#locateMe').html(showAll.showLocal(data.locations));
+  events.filterLocations();
+  events.letsSearch();
 };
 
-const whenLocationsLoad = (data) => {
-  $('#locateMe').append(showAll.showLocal(data.locations));
+const whenExLoad = (data) => {
+  $('#exPast').append(showAll.showEx(data.ex));
 };
 
 const whenThingsFail = (error) => {

@@ -1,9 +1,13 @@
 body {
-  background-color: lightskyblue;
+  /* background-color: lightskyblue; */
+  background-image: url(https://static1.squarespace.com/static/56e392fec2ea51482fe78351/t/57cdc5b59de4bb69facf22a4/1473103330551/Map+of+Nashville+-+dark+smaller.png);
+  font-size: 20px;
+  color: blueviolet
 }
-.main-container {
-  background-image: url(https://c8.alamy.com/comp/BAF2K1/nashville-map-BAF2K1.jpg);
-}
+/* .main-container {
+  background-image: url(https://static1.squarespace.com/static/56e392fec2ea51482fe78351/t/57cdc5b59de4bb69facf22a4/1473103330551/Map+of+Nashville+-+dark+smaller.png);
+} */
+
 img {
   width: 280px;
   height: 280px;
