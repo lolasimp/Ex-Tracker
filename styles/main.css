@@ -1,3 +1,9 @@
+body {
+  background-color: lightskyblue;
+}
+.main-container {
+  background-image: url(https://c8.alamy.com/comp/BAF2K1/nashville-map-BAF2K1.jpg);
+}
 img {
   width: 280px;
   height: 280px;
