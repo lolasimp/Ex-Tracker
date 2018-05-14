@@ -30,6 +30,48 @@
       "Name": "Broadway",
       "locationAddress": "Broadway, Nashville, TN 37201",
       "timeThatExUsuallyGoes":"After Dark"
+    },
+    {
+      "localImg":"http://theeastnashvillian.com/_uploads/images/Preservation%20Ale%20House.jpg",
+      "Name":"Amax Talent Agency",
+      "locationAddress": "307 Wilburn St, Nashville, TN 37207",
+      "timeThatExUsuallyGoes":"Morning"
+    },
+    {
+      "localImg":"https://media-cdn.tripadvisor.com/media/photo-s/0d/cb/3d/59/front.jpg",
+      "Name": "Garden Brunch Cafe",
+      "locationAddress": "924 Jefferson St, Nashville, TN 37208",
+      "timeThatExUsuallyGoes": "Morning"
+    },
+    {
+      "localImg":"https://admissions.vanderbilt.edu/insidedores/manage/wp-content/uploads/cafe-coco_medium.jpeg",
+      "Name": "Café Coco",
+      "locationAddress": "210 Louise Ave, Nashville, TN 37203",
+      "timeThatExUsuallyGoes":"After Dark"
+    },
+    {
+      "localImg":"http://www.nashvillelifestyles.com/_scripts/img_pp_crop.php?w=632&h=475&img=/_uploads/articles/Soar96.jpg",
+      "Name": "SOAR Adventure Tower",
+      "locationAddress": "3794 Carothers Pkwy, Franklin, TN 37067",
+      "timeThatExUsuallyGoes":"Afternoon"
+    },
+    {
+      "localImg":"https://s3-media1.fl.yelpcdn.com/bphoto/MhlRsue_0pnZv_xWPjekOQ/ls.jpg",
+      "Name": "Nashville Ballroom & Co",
+      "locationAddress": "630 Rundle Ave, Nashville, TN 37210",
+      "timeThatExUsuallyGoes":"Afternoon"
+    },
+    {
+      "localImg":"https://super8nashville.files.wordpress.com/2015/06/super_bbking.jpg",
+      "Name": "BB King's Blues Club",
+      "locationAddress": "152 2nd Ave N, Nashville, TN 37201",
+      "timeThatExUsuallyGoes":"Evening"
+    },
+    {
+      "localImg":"http://nashville.carpediem.cd/data/afisha/o/3c/97/3c974c4fea.jpg",
+      "Name": "Rudy's Jazz Room",
+      "locationAddress": "809 Gleaves St, Nashville, TN 37203",
+      "timeThatExUsuallyGoes":"Evening"
     }
   ]
 }

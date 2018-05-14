@@ -1,15 +1,15 @@
 const loadEx = require('./ex');
 const loadLocations = require('./locations');
 const showAll = require('./Dom');
+const events = require('./events');
 
 const whenExLoad = (data) => {
   $('#exPast').append(showAll.showEx(data.ex));
-  console.log(data);
+  events();
 };
 
 const whenLocationsLoad = (data) => {
   $('#locateMe').append(showAll.showLocal(data.locations));
-  console.log(data);
 };
 
 const whenThingsFail = (error) => {
