@@ -33,7 +33,8 @@ const filterLocations = (e) => {
   const button = $(e.target).html();
   $('#location-div .location-card').show();
   if (button === 'Morning') {
-    $('#location-div .location-card').not('.morning').toggle();
+    $('#location-div .location-card').not('.morning').hide();
+    console.log(e);
   } else if (button === 'Afternoon') {
     $('#location-div .location-card').not('.afternoon').toggle();
   } else if (button === 'Evening') {
@@ -49,6 +50,7 @@ const searchBar = (e) => {
   if (e.which === 13) {
     const userInput = $(e.target).val();
     $(`#location-div .location-card:not(:icontains(${userInput}))`).hide();
+    console.log(userInput);
     $(e.target).val('');
   };
 };
@@ -57,14 +59,5 @@ const bindEvents = () => {
   $('.btn').on('click', filterLocations);
   $('#search').keypress(searchBar);
 };
-
-// const categorize = () => {
-//   $('#search-input').keypress(function (e) {
-//     const find = $('#search-input').val();
-//     if (e.which === 13) {
-//       $(`#locations .location:not(:icontains(${find}))`).hide();
-//     };
-//   });
-// };
 
 module.exports = bindEvents;

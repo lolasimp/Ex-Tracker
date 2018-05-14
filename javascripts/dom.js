@@ -1,10 +1,16 @@
 const showEx = (exes) => {
   let exString = '';
-  exString += `<div class="ex-card">`;
-  exString +=   `<img src="${exes[0].img} width="20%">`;
-  exString +=    `<h2>${exes[0].name}</h2>`,
-  exString +=     `<span>${exes[0].age}</span>`;
-  exString +=      `<p>${exes[0].flaws}</p>`;
+  exString += `<div class="container-fluid">`;
+  exString +=  `<div class="row">`;
+  exString +=   `<div class="text-center">`;
+  exString +=    `<img class="ex=pic" src="${exes[0].img} width="20%">`;
+  exString +=   `</div>`;
+  exString +=   `<div class="col-sm-4">`;
+  exString +=    `<h2>Name: ${exes[0].name}</h2>`,
+  exString +=    `<span>Age:${exes[0].age}</span>`;
+  exString +=    `<p><h3>Flaws:</h3>${exes[0].flaws}</p>`;
+  exString +=   `</div>`;
+  exString +=  `</div>`;
   exString += `</div>`;
   return exString;
 };
@@ -27,6 +33,7 @@ const showEx = (exes) => {
 //   locoString += `</div>`;
 //   return locoString;
 // };
+
 const showLocal = (locations) => {
   let locoString = '';
   locoString += `<div class="container-fluid">`;
@@ -41,8 +48,8 @@ const showLocal = (locations) => {
     } else if (location.timeThatExUsuallyGoes === 'After Dark') {
       locoString += `<div class="col-sm-4 location-card after-dark">`;
     }
-    locoString +=  `<img src="${location.localImg}">`;
-    locoString +=  `<h3 class="location-name">${location.Name}</h3>`;
+    locoString +=  `<img class="loco-pic" src="${location.localImg}">`;
+    locoString +=  `<h3 class="location">${location.Name}</h3>`;
     locoString +=  `<p class="address">${location.locationAddress}</p>`;
     locoString +=  `<p>${location.timeThatExUsuallyGoes}</p>`;
     locoString += `</div>`;

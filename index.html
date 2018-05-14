@@ -11,35 +11,35 @@
 </head>
 
 <body class="text-center container-fluid">
-    <div class="main-container">
+    <div id="main-container">
       <h1>Ex Tracker</h1>
        <div id="exPast">
          <h3>Nombre Uno Fool</h3>
        </div>
-       <div id="searchbar" class="row center">
-         <div class="col-md-3">
-           <div class="input-group center">
-          <input id="search-input" type="text" placeholder="Find My Ex">
+       <div class="row">
+         <div class="col-md-3 col-md-offset-3">
+          <input id="search" type="text" class="form-control" placeholder="Find My Ex">
       </div>
     </div>
   </div>
     <div id="location-div">
-       <h3>Proceed With Caution</h3>
-       <div class ="center">
-       <button type="button" id="mawning-button" class="btn btn-warning btn-lg"><span aria-hidden="true"></span>Morning</button>
-       <button type="button" id="afternoon-button" class="btn btn-warning btn-lg"><span aria-hidden="true"></span>Afternoon</button>
-       <button type="button" id="evening-button" class="btn btn-warning btn-lg"><span aria-hidden="true"></span>Evening</button>
-       <button type="button" id="after-dark-button" class="btn btn-warning btn-lg"><span aria-hidden="true"></span>After Dark</button>
+       <h3 class="text-center">Proceed With Caution:</h3>
+       <div class ="buttons">
+        <div class="btn-group" role="group">
+         <button type="button"  class="btn btn-warning btn-lg">Morning</button>
+         <button type="button" class="btn btn-warning btn-lg">Afternoon</button>
+         <button type="button"  class="btn btn-warning btn-lg">Evening</button>
+         <button type="button" class="btn btn-warning btn-lg">After Dark</button>
+         </div>
        </div>
-       <a href = ".">
-        <button type="button" id='reset' class='btn btn-warning btn-lg'>Reset</button>
-      </a>
-        <div id="locateMe">
+      </div>
     </div>
 
-        </div>
-    </div>
+    <a href = ".">
+        <button type="button" id='reset' class='btn-warning btn-lg'>Reset</button>
+        </a>
 
+    <div id="locateMe"></div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
