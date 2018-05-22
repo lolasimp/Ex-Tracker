@@ -9,8 +9,17 @@ body {
 } */
 
 img {
-  width: 280px;
-  height: 280px;
+    width: 281px;
+    height: 280px;
+    padding: 13px;
+    padding-left: 1px;
+    padding-right: 31px;
+    margin: 20px 40px;
+}
+.location-card {
+  background-color: grey;
+  width: 380px;
+  height: 525px;
   padding: 20px;
-  margin: 20px 40px;
+  margin: 30px 50px;
 }

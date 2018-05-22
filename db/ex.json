@@ -3,8 +3,44 @@
     {
       "img":"https://i.imgur.com/0oRGMFF.png",
       "name": "Steve",
-      "age": 35,
-      "flaws": "Looked too much like the IT clown, Full O Ish, ED, Halitosis"
+      "age": 60,
+      "flaws": "Looked too much like the IT clown, Full O Ish, ED, Halitosis",
+      "id": 0,
+      "locationNombre" : [4, 5, 6]
+    },
+    {
+      "img":"https://media.gq.com/photos/581a473ca36741ab13832351/3:2/w_880/1116-GQ-FEBB03-01-Billy-Bob-Rocks-On-06.jpg",
+      "name": "Billy Bob",
+      "age": 62,
+      "flaws": "Junky, Will Never shutup",
+      "id": 1,
+      "locationNombre" : [1, 2, 3]
+    },
+    {
+      "img":"http://kalamu.com/neogriot/wp-content/uploads/2014/07/bob-marley-02.jpg",
+      "name": "Bob",
+      "age": 30,
+      "flaws": "Constantly high, therefore in an alternate universe.",
+      "id": 2,
+      "locationNombre" : [7, 8, 9, 13]
+
+    },
+    {
+      "img":"https://www.billboard.com/files/styles/article_main_image/public/media/shaggy-press-photo-2015-billboard-650.jpg",
+      "name": "Shaggy",
+      "age": 27,
+      "flaws": "Too Smooth, Flirt is his middle name",
+      "id": 3,
+      "locationNombre" : [10, 12, 15]
+
+    },
+    {
+      "img":"https://ia.media-imdb.com/images/M/MV5BMTk1MjM3NTU5M15BMl5BanBnXkFtZTcwMTMyMjAyMg@@._V1_UY317_CR14,0,214,317_AL_.jpg",
+      "name": "Tom",
+      "age": 44,
+      "flaws": "Insane",
+      "id": 4,
+      "locationNombre" : [11, 16, 14]
     }
   ]
 }
